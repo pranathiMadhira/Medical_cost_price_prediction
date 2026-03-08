@@ -6,13 +6,13 @@ Healthcare expenses differ significantly among individuals due to factors like l
 Dataset
 The dataset used in this project contains demographic and health-related information for individuals.
 #Main features in the dataset include:
-Age – Age of the individual
-Sex – Gender of the individual
-BMI – Body Mass Index
-Children – Number of children covered by insurance
-Smoker – Smoking status
-Region – Residential region
-Charges – Medical insurance cost (target variable)
+#Age – Age of the individual
+#Sex – Gender of the individual
+#BMI – Body Mass Index
+#Children – Number of children covered by insurance
+#Smoker – Smoking status
+#Region – Residential region
+#Charges – Medical insurance cost (target variable)
 
 #Project Workflow
 1. Data Loading
@@ -52,20 +52,20 @@ This project demonstrates how machine learning can be used to predict medical in
 
 
 #Project Structure
-Medical_cost_price_prediction
-│
-├── data
-│   └── insurance.csv
-│
-├── notebooks
-│   └── medical_cost_prediction.ipynb
-│
-├── models
-│   └── medical_cost_model.pkl
-│
-├── images
-│   └── plots.png
-│
-├── requirements.txt
-│
-└── README.md
+#Medical_cost_price_prediction
+#│
+#├── data
+#│   └── insurance.csv
+#│
+#├── notebooks
+#│   └── medical_cost_prediction.ipynb
+#│
+#├── models
+#│   └── medical_cost_model.pkl
+#│
+#├── images
+#│   └── plots.png
+#│
+#├── requirements.txt
+#│
+#└── README.md
