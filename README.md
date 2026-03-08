@@ -1,5 +1,6 @@
 # Medical_cost_price_prediction
 Analyzed medical insurance data to predict healthcare costs based on factors such as age, BMI, smoking status, and number of children. Performed data cleaning, exploratory data analysis, feature encoding, and built a regression model. Evaluated performance using MAE, RMSE, and R² metrics.
+
 #Problem Statement
 Healthcare expenses differ significantly among individuals due to factors like lifestyle habits and demographic characteristics. The goal of this project is to analyze these factors and develop a predictive model that estimates medical insurance charges based on the available data.
 Dataset
@@ -12,6 +13,7 @@ Children – Number of children covered by insurance
 Smoker – Smoking status
 Region – Residential region
 Charges – Medical insurance cost (target variable)
+
 #Project Workflow
 1. Data Loading
 The dataset was loaded using Pandas and inspected to understand its structure.
@@ -39,6 +41,7 @@ The model performance was evaluated using the following metrics:
 MAE (Mean Absolute Error)
 RMSE (Root Mean Squared Error)
 R² Score
+
 #Key Insights
 Smoking status significantly increases medical insurance costs.
 Individuals with higher BMI and older age tend to have higher healthcare expenses.
