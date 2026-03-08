@@ -38,11 +38,34 @@ StandardScaler was applied to normalize numerical features.
 A Linear Regression model was trained to predict medical charges.
 8. Model Evaluation
 The model performance was evaluated using the following metrics:
-MAE (Mean Absolute Error)
-RMSE (Root Mean Squared Error)
-R² Score
+R-squared: 0.8672
+Mean Absolute Error (MAE): 0.21
+Root Mean Squared Error (RMSE): 0.38
 
 #Key Insights
 Smoking status significantly increases medical insurance costs.
 Individuals with higher BMI and older age tend to have higher healthcare expenses.
 Lifestyle factors play a major role in determining insurance charges.
+
+#Summary
+This project demonstrates how machine learning can be used to predict medical insurance costs based on demographic and lifestyle attributes. The analysis shows that smoking status, BMI, and age significantly influence healthcare expenses.
+
+
+#Project Structure
+Medical_cost_price_prediction
+│
+├── data
+│   └── insurance.csv
+│
+├── notebooks
+│   └── medical_cost_prediction.ipynb
+│
+├── models
+│   └── medical_cost_model.pkl
+│
+├── images
+│   └── plots.png
+│
+├── requirements.txt
+│
+└── README.md
